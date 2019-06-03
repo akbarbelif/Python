@@ -15,7 +15,7 @@ with open('fdata.csv','r') as csvfile:
     for row in plots:
         print(row)
         date.append(row[0])
-        opened.append(row[1])
+        data.append(row[1])
         high.append(row[2])
         low.append(row[3])
         close.append(row[4])
