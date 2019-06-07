@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objs as go
 import plotly.plotly as pl
+import plotly
+plotly.tools.set_credentials_file(username="belifakbar",api_key='tgEwd6FJbmHuWkRpHNxI')
 import matplotlib.pyplot as plt
 
 N=1000

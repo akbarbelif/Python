@@ -5,7 +5,7 @@ Y=[value * 1.5 for value in X]
 print("Value of X :\n",*range(1,50))
 print("Values of Y is thrice then X",Y)
 #Pilot Line 
-plt.plot(X,X)
+plt.plot(X,Y)
 #plt.plot(X,X**2)
 #plt.plot(X,X**3)
 #set Label for X axis
